@@ -1,0 +1,12 @@
+package com.strafeup.task2.controller;
+
+import com.strafeup.task2.model.AbstractShape;
+
+import java.util.Comparator;
+
+public class ShapeColorComparator implements Comparator<AbstractShape> {
+    @Override
+    public int compare(AbstractShape o1, AbstractShape o2) {
+        return o1.getColorShape().length() - o2.getColorShape().length();
+    }
+}

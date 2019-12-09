@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayList perfectNumberList = (ArrayList) PerfectNumberGenerator.generate(0, 100);
+        ArrayList perfectNumberList = (ArrayList) PerfectNumberGenerator.generate(0, 100000);
         System.out.println(perfectNumberList.toString());
     }
 
