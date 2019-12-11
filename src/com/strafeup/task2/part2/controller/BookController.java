@@ -57,12 +57,12 @@ public class BookController {
             switch (choice) {
                 case 1:
                     System.out.println("Enter name of author");
-                    String author = scanner.nextLine();
+                    String author = scanner.next();
                     view.print(getBooksByAuthor(author));
                     break;
                 case 2:
                     System.out.println("Enter name of author");
-                    String publisher = scanner.nextLine();
+                    String publisher = scanner.next();
                     view.print(getBooksByPublisher(publisher));
                     break;
                 case 3:

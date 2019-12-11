@@ -10,5 +10,6 @@ public class Main {
         BookController bookController = new BookController(consolePrinter);
 
         bookController.start();
+
     }
 }
