@@ -1,4 +1,4 @@
-package com.strafeup.task2.model;
+package com.strafeup.task2.part1.model;
 
 public class Rectangle extends AbstractShape {
     private double height;

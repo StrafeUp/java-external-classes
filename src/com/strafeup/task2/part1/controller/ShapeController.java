@@ -1,7 +1,7 @@
-package com.strafeup.task2.controller;
+package com.strafeup.task2.part1.controller;
 
-import com.strafeup.task2.model.*;
-import com.strafeup.task2.view.AbstractPrinter;
+import com.strafeup.task2.part1.model.*;
+import com.strafeup.task2.part1.view.AbstractPrinter;
 
 import java.util.Arrays;
 

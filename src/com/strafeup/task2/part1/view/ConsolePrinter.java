@@ -1,4 +1,4 @@
-package com.strafeup.task2.view;
+package com.strafeup.task2.part1.view;
 
 public class ConsolePrinter extends AbstractPrinter {
     @Override

@@ -1,7 +1,7 @@
-package com.strafeup.task2;
+package com.strafeup.task2.part1;
 
-import com.strafeup.task2.controller.ShapeController;
-import com.strafeup.task2.view.ConsolePrinter;
+import com.strafeup.task2.part1.controller.ShapeController;
+import com.strafeup.task2.part1.view.ConsolePrinter;
 
 public class Main {
 

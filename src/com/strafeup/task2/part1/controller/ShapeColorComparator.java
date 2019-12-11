@@ -1,6 +1,6 @@
-package com.strafeup.task2.controller;
+package com.strafeup.task2.part1.controller;
 
-import com.strafeup.task2.model.AbstractShape;
+import com.strafeup.task2.part1.model.AbstractShape;
 
 import java.util.Comparator;
 

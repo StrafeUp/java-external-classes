@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/java-external-classes.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/util/BaseConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/util/BasesConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/view/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/util/MatrixFiller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/util/MatrixRotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/view/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/numberpyramid/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/numberpyramid/view/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/numberpyramid/view/NumberPyramidPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/perfectnumber/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task1/perfectnumber/util/PerfectNumberGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/controller/ShapeAreaComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeAreaComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/controller/ShapeColorComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeColorComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/controller/ShapeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/model/AbstractShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/AbstractShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/model/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/model/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/model/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/model/ShapePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/ShapePool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/model/ShapeType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/ShapeType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/model/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/view/AbstractPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/view/AbstractPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part1/view/ConsolePrinter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,64 +38,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Circle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/ShapePool.java">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="80">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/ShapeType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Triangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/view/AbstractPrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/view/ConsolePrinter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/controller/ShapeController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
+              <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -104,28 +50,82 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/AbstractShape.java">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Author.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            <state relative-caret-position="256">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Drawable.java">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Publisher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="464">
+              <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+              <folding>
+                <element signature="e#619#620#0" expanded="true" />
+                <element signature="e#660#661#0" expanded="true" />
+                <element signature="e#718#719#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Rectangle.java">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="96">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/view/ConsolePrinter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookComparator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#274#275#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -166,10 +166,22 @@
         <option value="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/util/BaseConverter.java" />
         <option value="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/Main.java" />
         <option value="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/view/ConsolePrinter.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/task1/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part1/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Author.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/ConsolePrinter.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Publisher.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/PublisherComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookComparator.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java" />
+        <option value="$PROJECT_DIR$/src/com/strafeup/task2/part2/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -179,9 +191,72 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strafeup" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strafeup" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strafeup" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strafeup" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strafeup" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="java-external-classes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="java-external-classes" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strafeup" type="462c0819:PsiDirectoryNode" />
+              <item name="task2" type="462c0819:PsiDirectoryNode" />
+              <item name="part2" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -194,6 +269,11 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.strafeup.task2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -322,17 +402,33 @@
       <workItem from="1575388989311" duration="212000" />
       <workItem from="1575389240624" duration="191000" />
       <workItem from="1575389460955" duration="7263000" />
+      <workItem from="1575900690903" duration="1345000" />
+      <workItem from="1576067632014" duration="3495000" />
     </task>
+    <task id="LOCAL-00001" summary="Task 2.1 done">
+      <created>1575900744984</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575900744985</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Task 2.1 done">
+      <created>1575900827542</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1575900827542</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7705000" />
+    <option name="totallyTimeSpent" value="12545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,40 +458,13 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="0" weight="0.32891566" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
-      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Database Changes" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Task 2.1 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task 2.1 done" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/.gitignore" />
@@ -529,44 +598,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/ShapeType.java">
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/model/ShapeType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Triangle.java">
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Triangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/view/AbstractPrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Rectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/model/ShapePool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/view/AbstractPrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/view/ConsolePrinter.java">
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/view/ConsolePrinter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/controller/ShapeController.java">
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
           <caret line="56" column="41" selection-start-line="56" selection-start-column="41" selection-end-line="56" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -574,33 +667,201 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/AbstractShape.java">
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/model/AbstractShape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Drawable.java">
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeAreaComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeColorComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Drawable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/Rectangle.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="-2742">
+          <caret line="213" column="27" selection-start-line="213" selection-start-column="27" selection-end-line="213" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/model/ShapePool.java">
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-12.0.2.jdk/Contents/Home/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="530" column="18" selection-start-line="530" selection-start-column="18" selection-end-line="530" selection-end-column="18" />
+          <folding>
+            <element signature="e#21079#21080#0" expanded="true" />
+            <element signature="e#21153#21154#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="80">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <caret line="5" column="18" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Author.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookComparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#274#275#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Publisher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="31" column="29" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#718#719#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/strafeup/task2/part2/view/ConsolePrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>java-external-classes</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
