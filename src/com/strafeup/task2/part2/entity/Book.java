@@ -29,7 +29,7 @@ public class Book {
                 ", year=" + year +
                 ", size=" + size +
                 ", price=" + price +
-                '}';
+                '}' + '\n';
     }
 
     public int getYear() {

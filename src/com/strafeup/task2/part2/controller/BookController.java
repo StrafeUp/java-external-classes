@@ -13,6 +13,7 @@ public class BookController {
     public BookController(ConsolePrinter view) {
         this.bookPool = new BookPool(10);
         this.view = view;
+        view.print(bookPool.getBooks());
     }
 
     private Book[] getBooksByAuthor(String author) {
@@ -23,6 +24,9 @@ public class BookController {
             if (book.getAuthor().equals(toFind)) {
                 newArr[i] = book;
                 i++;
+            }else {
+                System.out.println("Not found");
+                return newArr;
             }
         }
         return newArr;
@@ -35,6 +39,9 @@ public class BookController {
             if (book.getPublisher().equals(toFind)) {
                 newArr[i] = book;
                 i++;
+            }else {
+                System.out.println("Not found");
+                return newArr;
             }
         }
         return newArr;
@@ -61,7 +68,7 @@ public class BookController {
                     view.print(getBooksByAuthor(author));
                     break;
                 case 2:
-                    System.out.println("Enter name of author");
+                    System.out.println("Enter name of publisher");
                     String publisher = scanner.next();
                     view.print(getBooksByPublisher(publisher));
                     break;
@@ -88,6 +95,9 @@ public class BookController {
             if (book.getYear() > year) {
                 newArr[i] = book;
                 i++;
+            }else {
+                System.out.println("Not found");
+                return newArr;
             }
         }
         return newArr;

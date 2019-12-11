@@ -17,7 +17,7 @@ public class BookPool {
         for (int i = 0; i < size; i++) {
             Random random = new Random();
             innerArr[i] = new Book("" + i, new Author("Author" + random.nextInt(3)),
-                    new Publisher("Publisher" + i), (2009 + random.nextInt(10)),
+                    new Publisher("Publisher" + random.nextInt(3)), (2009 + random.nextInt(10)),
                     (200 + random.nextInt(100)), random.nextDouble());
         }
     }
