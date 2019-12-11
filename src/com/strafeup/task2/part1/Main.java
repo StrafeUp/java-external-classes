@@ -9,7 +9,9 @@ public class Main {
 
         ConsolePrinter consolePrinter = new ConsolePrinter();
         ShapeController shapeController = new ShapeController(consolePrinter);
-        shapeController.initShapes();
+        shapeController.showArray();
+        System.out.println();
+        shapeController.sortByAscArea();
         shapeController.showArray();
 
     }

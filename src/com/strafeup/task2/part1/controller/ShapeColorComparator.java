@@ -7,6 +7,6 @@ import java.util.Comparator;
 public class ShapeColorComparator implements Comparator<AbstractShape> {
     @Override
     public int compare(AbstractShape o1, AbstractShape o2) {
-        return o1.getColorShape().length() - o2.getColorShape().length();
+        return o1.getColorShape().compareTo(o2.getColorShape());
     }
 }

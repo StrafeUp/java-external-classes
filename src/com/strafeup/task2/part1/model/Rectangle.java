@@ -4,7 +4,7 @@ public class Rectangle extends AbstractShape {
     private double height;
     private double width;
 
-    public Rectangle(String colorShape, double height, double width) {
+    Rectangle(String colorShape, double height, double width) {
         super(colorShape);
         this.height = height;
         this.width = width;
@@ -14,11 +14,6 @@ public class Rectangle extends AbstractShape {
     @Override
     public double calcArea() {
         return height * width;
-    }
-
-    @Override
-    public void draw() {
-        System.out.printf("%s; area=%.2f\n", this, calcArea());
     }
 
     @Override
