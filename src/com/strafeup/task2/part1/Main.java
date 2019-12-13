@@ -11,7 +11,6 @@ public class Main {
         ShapeController shapeController = new ShapeController(consolePrinter);
         shapeController.showArray();
         System.out.println();
-        shapeController.sortByAscArea();
         shapeController.showArray();
 
     }
