@@ -8,12 +8,11 @@ import java.util.Scanner;
 
 public class BookController {
     private BookPool bookPool;
-    private ConsolePrinter view;
 
-    public BookController(ConsolePrinter view) {
+    public BookController() {
         this.bookPool = new BookPool(10);
-        this.view = view;
-        view.print(bookPool.getBooks());
+
+        ConsolePrinter.print(bookPool.getBooks());
     }
 
     private Book[] getBooksByAuthor(String author) {
@@ -65,21 +64,21 @@ public class BookController {
                 case 1:
                     System.out.println("Enter name of author");
                     String author = scanner.next();
-                    view.print(getBooksByAuthor(author));
+                    ConsolePrinter.print(getBooksByAuthor(author));
                     break;
                 case 2:
                     System.out.println("Enter name of publisher");
                     String publisher = scanner.next();
-                    view.print(getBooksByPublisher(publisher));
+                    ConsolePrinter.print(getBooksByPublisher(publisher));
                     break;
                 case 3:
                     System.out.println("Enter year");
                     int year = scanner.nextInt();
-                    view.print(getBooksPublishedAfterCertainYear(year));
+                    ConsolePrinter.print(getBooksPublishedAfterCertainYear(year));
                     break;
                 case 4:
                     Arrays.sort(bookPool.getBooks(), new BookComparator());
-                    view.print(bookPool.getBooks());
+                    ConsolePrinter.print(bookPool.getBooks());
                     break;
                 case 5: exit = true;
                     return;

@@ -8,7 +8,6 @@ public class Rectangle extends AbstractShape {
         super(colorShape);
         this.height = height;
         this.width = width;
-        this.shapeType = ShapeType.RECTANGLE;
     }
 
     @Override

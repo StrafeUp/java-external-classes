@@ -8,6 +8,6 @@ import java.util.Comparator;
 public class ShapeAreaComparator implements Comparator<AbstractShape> {
     @Override
     public int compare(AbstractShape o1, AbstractShape o2) {
-        return (int)(o1.calcArea() - o2.calcArea());
+        return (int) (o1.calcArea() - o2.calcArea());
     }
 }

@@ -22,28 +22,5 @@ public class ShapeController {
         }
     }
 
-    public double sumOfShapesArea() {
-        double sum = 0;
-        for (AbstractShape abstractShape : internalArray) {
-            sum += abstractShape.calcArea();
-        }
-        return sum;
-    }
-
-    public double areaSumOfSameShapes(ShapeType shapeType) {
-        double sum = 0;
-        for (AbstractShape abstractShape : internalArray) {
-            if (abstractShape.getShapeType() == shapeType) sum += abstractShape.calcArea();
-        }
-        return sum;
-    }
-
-    public void sortByAscArea() {
-        Arrays.sort(internalArray, new ShapeAreaComparator());
-    }
-
-    public void sortByColor() {
-        Arrays.sort(internalArray, new ShapeColorComparator());
-    }
 
 }

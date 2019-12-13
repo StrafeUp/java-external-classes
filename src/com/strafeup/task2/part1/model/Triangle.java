@@ -9,12 +9,11 @@ public class Triangle extends AbstractShape {
         return Math.sqrt(s * (s - a) * (s - b) * (s - c));
     }
 
-    public Triangle(String colorShape, double a, double b, double c) {
+    Triangle(String colorShape, double a, double b, double c) {
         super(colorShape);
         this.a = a;
         this.b = b;
         this.c = c;
-        this.shapeType = ShapeType.TRIANGLE;
     }
 
     @Override

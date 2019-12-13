@@ -7,7 +7,7 @@ public class Circle extends AbstractShape {
     Circle(String colorShape, double radius) {
         super(colorShape);
         this.radius = radius;
-        this.shapeType = ShapeType.CIRCLE;
+
     }
 
     @Override

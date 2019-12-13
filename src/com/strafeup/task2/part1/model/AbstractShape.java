@@ -2,7 +2,7 @@ package com.strafeup.task2.part1.model;
 
 public abstract class AbstractShape implements Drawable {
     private String colorShape;
-    ShapeType shapeType;
+
 
     AbstractShape(String colorShape) {
         this.colorShape = colorShape;
@@ -18,10 +18,6 @@ public abstract class AbstractShape implements Drawable {
 
     public void draw() {
         System.out.printf("%s; area=%.2f ", this, calcArea());
-    }
-
-    public ShapeType getShapeType() {
-        return shapeType;
     }
 
     public String getColorShape() {
