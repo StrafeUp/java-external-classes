@@ -1,7 +1,6 @@
 package com.strafeup.task1.perfectnumber;
 
 
-
 import com.strafeup.task1.perfectnumber.util.PerfectNumberGenerator;
 
 import java.util.ArrayList;

@@ -34,12 +34,13 @@ public class BookPool {
                 i++;
             }
         }
-        if(newArr.length == 0){
+        if (newArr.length == 0) {
             ConsolePrinter.print("Not found");
         }
         return newArr;
     }
-    public Book[] getBooksByPublisher(String publisher){
+
+    public Book[] getBooksByPublisher(String publisher) {
         Book[] newArr = new Book[innerArr.length];
         int i = 0;
         Publisher toFind = new Publisher(publisher);
@@ -49,11 +50,12 @@ public class BookPool {
                 i++;
             }
         }
-        if(newArr.length == 0){
+        if (newArr.length == 0) {
             ConsolePrinter.print("Not found");
         }
         return newArr;
     }
+
     public Book[] getBooksPublishedAfterCertainYear(int year) {
         Book[] newArr = new Book[innerArr.length];
         int i = 0;
@@ -63,13 +65,13 @@ public class BookPool {
                 i++;
             }
         }
-        if(newArr.length == 0){
+        if (newArr.length == 0) {
             ConsolePrinter.print("Not found");
         }
         return newArr;
     }
 
-    public Book[] sortByComparator(Comparator comparator){
+    public Book[] sortByComparator(Comparator comparator) {
         Book[] newArr = Arrays.copyOf(innerArr, innerArr.length);
         Arrays.sort(newArr, comparator);
         return newArr;

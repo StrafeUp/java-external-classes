@@ -1,4 +1,4 @@
-package com.strafeup.task2.part2.view;
+package com.strafeup.task3.part1.view;
 
 import java.util.Scanner;
 
