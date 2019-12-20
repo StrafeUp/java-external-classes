@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/controller/MainController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/controller/comparators/CompareToysByName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/controller/comparators/CompareToysByPrice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/controller/comparators/CompareToysBySize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/model/Material.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/model/PlayingRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/model/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/model/Transformable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/model/entity/PlushToy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/model/entity/Transformer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task3/view/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Publ.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/view/ConsolePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/util/MatrixFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/util/MatrixFiller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/perfectnumber/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task1/perfectnumber/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/ConvertToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/ConvertToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookComparator.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/ConsolePrinter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/InputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/InputData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/MainController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +21,14 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="180" />
-    <option name="y" value="112" />
-    <option name="width" value="1080" />
-    <option name="height" value="676" />
   </component>
   <component name="ProjectId" id="1V4HDCNPQwqjdHI3dmvCR5YNltq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,11 +38,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/java-external-classes.iml" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -70,6 +53,9 @@
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.strafeup.task2" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.strafeup.task3.view" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Main (3)">
@@ -229,7 +215,10 @@
       <workItem from="1576067632014" duration="9219000" />
       <workItem from="1576243734584" duration="227000" />
       <workItem from="1576252239432" duration="1830000" />
-      <workItem from="1576505335586" duration="2258000" />
+      <workItem from="1576505335586" duration="2710000" />
+      <workItem from="1576514726654" duration="67000" />
+      <workItem from="1576674150335" duration="840000" />
+      <workItem from="1576847065567" duration="1120000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2.1 done">
       <created>1575900744984</created>
@@ -280,7 +269,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576253977720</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added task 3 part 1, TODO: implement menu in controller.">
+      <created>1576508022559</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576508022559</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +289,8 @@
     <MESSAGE value="Fixed some outputs, added error messages for failed find attempt, publishers now named through random mechanism (0-2)" />
     <MESSAGE value="Fixed 2.1 to working condition, added ShapePool" />
     <MESSAGE value="Moved from controller to BookPool, added InputData, ConverterToString." />
-    <option name="LAST_COMMIT_MESSAGE" value="Moved from controller to BookPool, added InputData, ConverterToString." />
+    <MESSAGE value="Added task 3 part 1, TODO: implement menu in controller." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added task 3 part 1, TODO: implement menu in controller." />
   </component>
   <component name="WindowStateProjectService">
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1576506939282">
@@ -301,6 +298,30 @@
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1576505995670" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576506939282" />
+    <state x="271" y="53" key="CommitChangelistDialog2" timestamp="1576508022102">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576508022102" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1576848737155">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576848737155" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1576848737153">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576848737153" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1576848737151">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576848737151" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1576848737154">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576848737154" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1576508025352">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576508025352" />
   </component>
   <component name="masterDetails">
     <states>

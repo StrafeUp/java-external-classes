@@ -4,8 +4,6 @@ import com.strafeup.task2.part2.entity.*;
 import com.strafeup.task2.part2.view.ConsolePrinter;
 import com.strafeup.task2.part2.view.InputData;
 
-import java.util.Arrays;
-
 public class BookController {
     private BookPool bookPool;
 
@@ -17,37 +15,31 @@ public class BookController {
 
     public void start() {
 
-        boolean exit = false;
+        while (true) {
+            ConsolePrinter.print("Enter command");
+            ConsolePrinter.print("1 - find books by author");
+            ConsolePrinter.print("2 - find books by publisher");
+            ConsolePrinter.print("3 - find books published after year");
+            ConsolePrinter.print("4 - sort books by publisher");
+            ConsolePrinter.print("5 - exit");
 
-        while (!exit) {
-            System.out.println("Enter command");
-            System.out.println("1 - find books by author");
-            System.out.println("2 - find books by publisher");
-            System.out.println("3 - find books published after year");
-            System.out.println("4 - sort books by publisher");
-            System.out.println("5 - exit");
-
-            int choice = Integer.parseInt(InputData.getInput());
-
-            switch (choice) {
+            switch (Integer.parseInt(InputData.getInput())) {
                 case 1:
-                    System.out.println("Enter name of author");
+                    ConsolePrinter.print("Enter name of author");
                     ConsolePrinter.print(ConvertToString.convertArray(bookPool.getBooksByAuthor(InputData.getInput())));
                     break;
                 case 2:
-                    System.out.println("Enter name of publisher");
+                    ConsolePrinter.print("Enter name of publisher");
                     ConsolePrinter.print(ConvertToString.convertArray(bookPool.getBooksByPublisher(InputData.getInput())));
                     break;
                 case 3:
-                    System.out.println("Enter year");
+                    ConsolePrinter.print("Enter year");
                     ConsolePrinter.print(ConvertToString.convertArray(bookPool.getBooksPublishedAfterCertainYear(Integer.parseInt(InputData.getInput()))));
                     break;
                 case 4:
-
-                    ConsolePrinter.print(ConvertToString.convertArray(bookPool.sortByComparator(new BookComparator())));
+                    ConsolePrinter.print(ConvertToString.convertArray(bookPool.sortByPublisher()));
                     break;
                 case 5:
-                    exit = true;
                     return;
 
             }

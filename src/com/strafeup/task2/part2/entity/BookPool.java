@@ -19,7 +19,7 @@ public class BookPool {
         for (int i = 0; i < size; i++) {
             Random random = new Random();
             innerArr[i] = new Book("" + i, new Author("Author" + random.nextInt(3)),
-                    new Publisher("Publisher" + random.nextInt(3)), (2009 + random.nextInt(10)),
+                    Publisher.valueOf(("Publisher_" + (random.nextInt(3) + 1)).toUpperCase()), (2009 + random.nextInt(10)),
                     (200 + random.nextInt(100)), random.nextDouble());
         }
     }
@@ -43,7 +43,8 @@ public class BookPool {
     public Book[] getBooksByPublisher(String publisher) {
         Book[] newArr = new Book[innerArr.length];
         int i = 0;
-        Publisher toFind = new Publisher(publisher);
+        Publisher toFind = Publisher.valueOf(publisher.toUpperCase());
+
         for (Book book : innerArr) {
             if (book.getPublisher().equals(toFind)) {
                 newArr[i] = book;
@@ -71,9 +72,15 @@ public class BookPool {
         return newArr;
     }
 
-    public Book[] sortByComparator(Comparator comparator) {
+    public Book[] sortByPublisher() {
         Book[] newArr = Arrays.copyOf(innerArr, innerArr.length);
-        Arrays.sort(newArr, comparator);
+        Arrays.sort(newArr, new Comparator<Book>() {
+            @Override
+            public int compare(Book o1, Book o2) {
+                return o1.getPublisher().compareTo(o2.getPublisher());
+            }
+        });
+
         return newArr;
     }
 
