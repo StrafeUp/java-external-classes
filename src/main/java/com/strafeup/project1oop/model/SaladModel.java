@@ -25,21 +25,22 @@ public class SaladModel {
         salad.setTotalCalories((int) countTotalCaloriesInSalad());
     }
 
-    public void sortBy(String parameter) {
+    public Vegetable[] sortBy(String parameter) {
+        Vegetable[] tempArr = this.salad.getVegetables();
         while (true) {
             switch (parameter.toLowerCase()) {
                 case "calories":
-                    Arrays.sort(this.salad.getVegetables(), (o1, o2) -> (int) (o1.getCalories() - o2.getCalories()));
-                    return;
+                    Arrays.sort(tempArr, (o1, o2) -> (int) (o1.getCalories() - o2.getCalories()));
+                    return tempArr;
                 case "color":
-                    Arrays.sort(this.salad.getVegetables(), (o1, o2) -> o1.getVegetableColorCategory().compareTo(o2.getVegetableColorCategory()));
-                    return;
+                    Arrays.sort(tempArr, (o1, o2) -> o1.getVegetableColorCategory().compareTo(o2.getVegetableColorCategory()));
+                    return tempArr;
                 case "name":
-                    Arrays.sort(this.salad.getVegetables(), (o1, o2) -> o1.getName().compareTo(o2.getName()));
-                    return;
+                    Arrays.sort(tempArr, (o1, o2) -> o1.getName().compareTo(o2.getName()));
+                    return tempArr;
                 case "weight":
-                    Arrays.sort(this.salad.getVegetables(), (o1, o2) -> (int) (o1.getWeight() - o2.getWeight()));
-                    return;
+                    Arrays.sort(tempArr, (o1, o2) -> (int) (o1.getWeight() - o2.getWeight()));
+                    return tempArr;
                 default:
                     ConsolePrinter.print("Parameter unrecognized");
                     break;
@@ -69,5 +70,12 @@ public class SaladModel {
 
     public Salad getSalad() {
         return salad;
+    }
+
+    public void setSalad(Salad salad) {
+        this.salad = salad;
+    }
+    public void setSaladVegetables(Vegetable[] vegetables){
+        this.salad.setVegetables(vegetables);
     }
 }

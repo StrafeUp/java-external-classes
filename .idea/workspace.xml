@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/model/SaladModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/model/entity/Salad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/model/entity/Vegetable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/model/entity/VegetableColorCategory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/view/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/view/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/strafeup/project1oop/controller/MenuControllerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/controller/MenuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/controller/MenuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/model/SaladModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/project1oop/model/SaladModel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +21,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Class" />
+        <option value="Arquillian JUnit Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -53,6 +49,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/java-external-classes.iml" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -61,8 +60,14 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.strafeup.project1oop.controller" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.strafeup.task2" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.strafeup.task3.view" />
@@ -71,72 +76,7 @@
       <recent name="com.strafeup.project1oop.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.task1.numberpyramid.Main" />
-      <module name="java-external-classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strafeup.task1.numberpyramid.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.task2.part2.Main" />
-      <module name="java-external-classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strafeup.task2.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.task2.part1.Main" />
-      <module name="java-external-classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strafeup.task2.part1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.task3.part3.Main" />
-      <module name="java-external-classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strafeup.task3.part3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.project1oop.Main" />
-      <module name="java-external-classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strafeup.project1oop.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.MenuControllerTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strafeup.task1.numberpyramid.Main" />
       <module name="java-external-classes" />
@@ -189,13 +129,92 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MenuControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-external-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strafeup.project1oop.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.strafeup.project1oop.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.project1oop.controller.MenuControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuControllerTest.checkIfSaladEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-external-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strafeup.project1oop.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.strafeup.project1oop.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.project1oop.controller.MenuControllerTest" />
+      <option name="METHOD_NAME" value="checkIfSaladEmpty" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuControllerTest.checkSaladAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-external-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strafeup.project1oop.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.strafeup.project1oop.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.project1oop.controller.MenuControllerTest" />
+      <option name="METHOD_NAME" value="checkSaladAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuControllerTest.checkSortByColorCategory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-external-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strafeup.project1oop.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.strafeup.project1oop.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.project1oop.controller.MenuControllerTest" />
+      <option name="METHOD_NAME" value="checkSortByColorCategory" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuControllerTest.checkSortByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-external-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strafeup.project1oop.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.strafeup.project1oop.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.project1oop.controller.MenuControllerTest" />
+      <option name="METHOD_NAME" value="checkSortByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (5)" />
-        <item itemvalue="Application.Main (3)" />
-        <item itemvalue="Application.Main (4)" />
-        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="JUnit.MenuControllerTest" />
+        <item itemvalue="JUnit.MenuControllerTest.checkSortByColorCategory" />
+        <item itemvalue="JUnit.MenuControllerTest.checkSortByName" />
+        <item itemvalue="JUnit.MenuControllerTest.checkSaladAdd" />
+        <item itemvalue="JUnit.MenuControllerTest.checkIfSaladEmpty" />
       </list>
     </recent_temporary>
   </component>
@@ -233,7 +252,7 @@
       <workItem from="1576674150335" duration="840000" />
       <workItem from="1576847065567" duration="1421000" />
       <workItem from="1576866602137" duration="82000" />
-      <workItem from="1577203188003" duration="11889000" />
+      <workItem from="1577203188003" duration="13077000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2.1 done">
       <created>1575900744984</created>
@@ -305,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577209531652</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Project 1 oop done without tests">
+      <created>1577219522243</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577219522243</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -321,15 +347,20 @@
     <MESSAGE value="Added task 3 part 1, TODO: implement menu in controller." />
     <MESSAGE value="Task2 changed comparator to inner anonymous class, changed Publisher from object to enum" />
     <MESSAGE value="Added 3.3, 3.2 in progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 3.3, 3.2 in progress" />
+    <MESSAGE value="Project 1 oop done without tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Project 1 oop done without tests" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1577217862121">
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577220526505">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1577220526505" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1577220164335">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1576505995670" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576506939282" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577217862121" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577220164335" />
     <state x="340" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576866644984">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -342,30 +373,30 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="374" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1577216780414" />
-    <state x="230" y="53" key="CommitChangelistDialog2" timestamp="1577209531149">
+    <state x="230" y="53" key="CommitChangelistDialog2" timestamp="1577219521833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576508022102" />
-    <state x="230" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577209531149" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1577219445619">
+    <state x="230" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577219521833" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1577220591000">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577219445619" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577220591000" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1577219340634" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1577219445618">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1577220590998">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577219445618" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577220590998" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1577219340629" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1577219445618">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1577220590997">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577219445618" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577220590997" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1577219340622" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1577219445619">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1577220590999">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577219445619" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577220590999" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1577219340631" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577218846446">
       <screen x="0" y="0" width="1440" height="900" />
@@ -388,10 +419,22 @@
     </state>
     <state x="208" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577217048163" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1577206044061" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577209535260">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577219524375">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576508025352" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577209535260" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577219524375" />
+    <state x="458" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577219800171">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="458" y="184" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1440.900@0.0.1440.900" timestamp="1577219800171" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/java_external_classes$MenuControllerTest_checkSortByColorCategory.ic" NAME="MenuControllerTest.checkSortByColorCategory Coverage Results" MODIFIED="1577220548485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.strafeup.project1oop.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/java_external_classes$MenuControllerTest.ic" NAME="MenuControllerTest Coverage Results" MODIFIED="1577220557482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.strafeup.project1oop.controller.*</FILTER>
+    </SUITE>
   </component>
 </project>

@@ -61,7 +61,7 @@ public class MenuController {
         }
     }
 
-    private void countTotalCalories(SaladModel saladModel) {
+    public void countTotalCalories(SaladModel saladModel) {
         if (!checkIfSaladEmpty(saladModel)) {
             ConsolePrinter.print("The total calories in salad is " + saladModel.countTotalCaloriesInSalad());
         }
@@ -70,7 +70,7 @@ public class MenuController {
     private void sortByParameter(SaladModel saladModel) {
         if (!checkIfSaladEmpty(saladModel)) {
             ConsolePrinter.print("Available parameters: Name, Color, Calories, Weight\nEnter parameter:");
-            saladModel.sortBy(UserInput.getWord());
+            saladModel.setSaladVegetables(saladModel.sortBy(UserInput.getWord()));
         }
     }
 
@@ -122,7 +122,7 @@ public class MenuController {
         return new Vegetable(name, vegetableColorCategory, calories, weight);
     }
 
-    private boolean checkIfSaladEmpty(SaladModel saladModel) {
+    public boolean checkIfSaladEmpty(SaladModel saladModel) {
         if (saladModel.getIngredientCount() <= 0) {
             ConsolePrinter.print("Salad is empty");
             return true;
