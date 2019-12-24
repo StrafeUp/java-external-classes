@@ -2,13 +2,62 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Publ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part2/model/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part2/model/ShopModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part2/view/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part3/WarningLevel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookComparator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-external-classes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-external-classes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/baseconverter/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/util/BaseConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/baseconverter/util/BaseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/util/BasesConst.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/baseconverter/util/BasesConst.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/baseconverter/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/baseconverter/view/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/matrixrotation/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/util/MatrixFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/matrixrotation/util/MatrixFiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/util/MatrixRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/matrixrotation/util/MatrixRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/matrixrotation/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/matrixrotation/view/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/numberpyramid/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/numberpyramid/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/numberpyramid/view/NumberPyramidPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/numberpyramid/view/NumberPyramidPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/perfectnumber/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/perfectnumber/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task1/perfectnumber/util/PerfectNumberGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task1/perfectnumber/util/PerfectNumberGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeAreaComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/controller/ShapeAreaComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeColorComparator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/controller/ShapeColorComparator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/controller/ShapeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/controller/ShapeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/AbstractShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/model/AbstractShape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/model/Circle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Drawable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/model/Drawable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/model/Rectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/ShapePool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/model/ShapePool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/model/Triangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/model/Triangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/view/AbstractPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/view/AbstractPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part1/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part1/view/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/controller/ConvertToString.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/controller/ConvertToString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Author.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/entity/Author.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/entity/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/BookPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/entity/BookPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/entity/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/entity/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/view/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task2/part2/view/InputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task2/part2/view/InputData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/comparators/CompareToysByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/controller/comparators/CompareToysByName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/comparators/CompareToysByPrice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/controller/comparators/CompareToysByPrice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/controller/comparators/CompareToysBySize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/controller/comparators/CompareToysBySize.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/model/Material.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/model/Material.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/model/PlayingRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/model/PlayingRoom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/model/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/model/Toy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/model/Transformable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/model/Transformable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/model/entity/PlushToy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/model/entity/PlushToy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/model/entity/Transformer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/model/entity/Transformer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/view/ConsolePrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/view/ConsolePrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/strafeup/task3/part1/view/InputData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task3/part1/view/InputData.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,13 +71,20 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1V4HDCNPQwqjdHI3dmvCR5YNltq" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -46,9 +102,9 @@
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -58,7 +114,7 @@
       <recent name="com.strafeup.task3.view" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main (5)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strafeup.task1.perfectnumber.Main" />
       <module name="java-external-classes" />
@@ -111,12 +167,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.task1.matrixrotation.Main" />
+    <configuration name="Main (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.task3.part3.Main" />
       <module name="java-external-classes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strafeup.task1.matrixrotation.util.*" />
+          <option name="PATTERN" value="com.strafeup.task3.part3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +234,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -218,7 +274,9 @@
       <workItem from="1576505335586" duration="2710000" />
       <workItem from="1576514726654" duration="67000" />
       <workItem from="1576674150335" duration="840000" />
-      <workItem from="1576847065567" duration="1120000" />
+      <workItem from="1576847065567" duration="1421000" />
+      <workItem from="1576866602137" duration="82000" />
+      <workItem from="1577203188003" duration="4116000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2.1 done">
       <created>1575900744984</created>
@@ -276,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576508022559</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Task2 changed comparator to inner anonymous class, changed Publisher from object to enum">
+      <created>1576848811608</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576848811608</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,110 +355,58 @@
     <MESSAGE value="Fixed 2.1 to working condition, added ShapePool" />
     <MESSAGE value="Moved from controller to BookPool, added InputData, ConverterToString." />
     <MESSAGE value="Added task 3 part 1, TODO: implement menu in controller." />
-    <option name="LAST_COMMIT_MESSAGE" value="Added task 3 part 1, TODO: implement menu in controller." />
+    <MESSAGE value="Task2 changed comparator to inner anonymous class, changed Publisher from object to enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="Task2 changed comparator to inner anonymous class, changed Publisher from object to enum" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1576506939282">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1577209101146">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1576505995670" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576506939282" />
-    <state x="271" y="53" key="CommitChangelistDialog2" timestamp="1576508022102">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577209101146" />
+    <state x="340" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1576866644984">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="340" y="146" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1440.900@0.0.1440.900" timestamp="1576866644984" />
+    <state x="270" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1577207289617">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="270" y="382" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1440.900@0.0.1440.900" timestamp="1577207289617" />
+    <state x="374" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577207565470">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="374" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1577207565470" />
+    <state x="271" y="53" key="CommitChangelistDialog2" timestamp="1576848811086">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576508022102" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1576848737155">
+    <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1576848811086" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1577207210949">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1576848737155" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1576848737153">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577207210949" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1577207210946">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1576848737153" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1576848737151">
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577207210946" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1577207210945">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1576848737151" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1576848737154">
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577207210945" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1577207210948">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1576848737154" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1576508025352">
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577207210948" />
+    <state x="208" y="0" key="SettingsEditor" timestamp="1577207169201">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="208" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577207169201" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1577206044061" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1576848836056">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1576508025352" />
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>java-external-classes</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1576848836056" />
   </component>
 </project>
