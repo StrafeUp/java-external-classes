@@ -7,7 +7,7 @@ public class ShopModel {
     private Shop shop;
 
     public ShopModel() {
-        this.shop = new Shop("Shop1", 2);
+        this.shop = new Shop("Shop1", 3);
     }
 
     public void addDepartment(String name, String[] products, String[] services, String location) {
@@ -34,5 +34,22 @@ public class ShopModel {
         Shop.Department[] departments = shop.getDepartments();
         Arrays.sort(departments);
         shop.setDepartments(departments);
+    }
+
+    public Shop.Department[] getDepartments() {
+        return shop.getDepartments();
+    }
+
+    public void sortByName() {
+        Arrays.sort(shop.getDepartments(), (o1, o2) -> o1.getName().compareTo(o2.getName()));
+    }
+
+    public Shop.Department getDepartmentByName(String name) {
+        for (Shop.Department dep: shop.getDepartments()) {
+            if(dep.getName().equalsIgnoreCase(name)){
+                return dep;
+            }
+        }
+        return null;
     }
 }
