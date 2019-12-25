@@ -1,6 +1,7 @@
 package com.strafeup.project1oop.controller;
 
 import com.strafeup.project1oop.model.SaladModel;
+import com.strafeup.project1oop.model.entity.RipenessPercentage;
 import com.strafeup.project1oop.model.entity.Vegetable;
 import com.strafeup.project1oop.model.entity.VegetableColorCategory;
 import com.strafeup.project1oop.view.ConsolePrinter;
@@ -91,9 +92,23 @@ public class MenuController {
     }
 
     private Vegetable getVegetable(int i) {
-        ConsolePrinter.print("Enter name of vegetable number " + (i + 1));
-        String name = UserInput.getWord();
+        return new Vegetable(getName(i), getColorCategory(), getRipenessPercentage(), getCalories(), getWeight());
+    }
 
+    public boolean checkIfSaladEmpty(SaladModel saladModel) {
+        if (saladModel.getIngredientCount() <= 0) {
+            ConsolePrinter.print("Salad is empty");
+            return true;
+        }
+        return false;
+    }
+
+    private String getName(int i) {
+        ConsolePrinter.print("Enter name of vegetable number " + (i + 1));
+        return UserInput.getWord();
+    }
+
+    private VegetableColorCategory getColorCategory() {
         ConsolePrinter.print("Choose color category");
         ConsolePrinter.print(Arrays.toString(VegetableColorCategory.values()));
         VegetableColorCategory vegetableColorCategory;
@@ -106,27 +121,40 @@ public class MenuController {
                 ConsolePrinter.print("Unrecognized category");
             }
         }
+        return vegetableColorCategory;
+    }
 
+    private RipenessPercentage getRipenessPercentage() {
+        ConsolePrinter.print("Choose ripeness percentage");
+        ConsolePrinter.print(Arrays.toString(RipenessPercentage.values()));
+        RipenessPercentage ripenessPercentage;
+
+        while (true) {
+            try {
+                ripenessPercentage = RipenessPercentage.valueOf(UserInput.getWord().toUpperCase());
+                break;
+            } catch (IllegalArgumentException ignored) {
+                ConsolePrinter.print("Unrecognized category");
+            }
+        }
+        return ripenessPercentage;
+    }
+
+    private double getCalories() {
         double calories = 0;
         while (calories <= 0) {
             ConsolePrinter.print("Enter vegetable calories, can't be negative");
             calories = UserInput.getDoubleInput();
         }
+        return calories;
+    }
 
+    private double getWeight() {
         double weight = 0;
         while (weight <= 0) {
             ConsolePrinter.print("Enter vegetable weight");
             weight = UserInput.getDoubleInput();
         }
-
-        return new Vegetable(name, vegetableColorCategory, calories, weight);
-    }
-
-    public boolean checkIfSaladEmpty(SaladModel saladModel) {
-        if (saladModel.getIngredientCount() <= 0) {
-            ConsolePrinter.print("Salad is empty");
-            return true;
-        }
-        return false;
+        return weight;
     }
 }

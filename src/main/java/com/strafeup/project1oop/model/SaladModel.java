@@ -41,6 +41,8 @@ public class SaladModel {
                 case "weight":
                     Arrays.sort(tempArr, (o1, o2) -> (int) (o1.getWeight() - o2.getWeight()));
                     return tempArr;
+                case "ripeness":
+                    Arrays.sort(tempArr, (o1, o2) -> (o1.getRipenessPercentage().compareTo(o2.getRipenessPercentage())));
                 default:
                     ConsolePrinter.print("Parameter unrecognized");
                     break;
@@ -75,7 +77,8 @@ public class SaladModel {
     public void setSalad(Salad salad) {
         this.salad = salad;
     }
-    public void setSaladVegetables(Vegetable[] vegetables){
+
+    public void setSaladVegetables(Vegetable[] vegetables) {
         this.salad.setVegetables(vegetables);
     }
 }

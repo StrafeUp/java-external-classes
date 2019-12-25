@@ -5,12 +5,14 @@ import java.util.Objects;
 public class Vegetable {
     private String name;
     private VegetableColorCategory vegetableColorCategory;
+    private RipenessPercentage ripenessPercentage;
     private double calories;
     private double weight;
 
-    public Vegetable(String name, VegetableColorCategory vegetableColorCategory, double calories, double weight) {
+    public Vegetable(String name, VegetableColorCategory vegetableColorCategory, RipenessPercentage ripenessPercentage, double calories, double weight) {
         this.name = name;
         this.vegetableColorCategory = vegetableColorCategory;
+        this.ripenessPercentage = ripenessPercentage;
         this.calories = calories;
         this.weight = weight;
     }
@@ -31,6 +33,14 @@ public class Vegetable {
         this.vegetableColorCategory = vegetableColorCategory;
     }
 
+    public RipenessPercentage getRipenessPercentage() {
+        return ripenessPercentage;
+    }
+
+    public void setRipenessPercentage(RipenessPercentage ripenessPercentage) {
+        this.ripenessPercentage = ripenessPercentage;
+    }
+
     public double getCalories() {
         return calories;
     }
@@ -48,24 +58,8 @@ public class Vegetable {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof Vegetable)) return false;
-        Vegetable vegetable = (Vegetable) o;
-        return Double.compare(vegetable.calories, calories) == 0 &&
-                Double.compare(vegetable.weight, weight) == 0 &&
-                Objects.equals(name, vegetable.name) &&
-                vegetableColorCategory == vegetable.vegetableColorCategory;
-    }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(name, vegetableColorCategory, calories, weight);
-    }
-
-    @Override
     public String toString() {
-        return "\n" + name + ", color category: " + vegetableColorCategory +
-                ", cal: " + calories + ", " + weight + "g,\n";
+        return "\n" + name + ", color category: " + vegetableColorCategory + ", ripeness: " + ripenessPercentage.getPercentage() +
+                "%, cal: " + calories + ", " + weight + "g,\n";
     }
 }
