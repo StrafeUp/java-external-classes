@@ -9,11 +9,17 @@ import com.strafeup.project1oop.view.UserInput;
 
 import java.util.Arrays;
 
+/**
+ * Controller for menu of the app
+ */
 public class MenuController {
     public void start() {
         menu();
     }
 
+    /**
+     * Start menu
+     */
     private void menu() {
 
         SaladModel saladModel = new SaladModel(0);
@@ -52,6 +58,9 @@ public class MenuController {
         }
     }
 
+    /**
+     * @param saladModel to look in for
+     */
     private void findVegetablesInRange(SaladModel saladModel) {
         if (!checkIfSaladEmpty(saladModel)) {
             ConsolePrinter.print("Enter lower bound of calories");
@@ -61,13 +70,17 @@ public class MenuController {
             saladModel.findByCalories(lowerBound, upperBound);
         }
     }
-
+    /**
+     * @param saladModel to look in for
+     */
     public void countTotalCalories(SaladModel saladModel) {
         if (!checkIfSaladEmpty(saladModel)) {
             ConsolePrinter.print("The total calories in salad is " + saladModel.countTotalCaloriesInSalad());
         }
     }
-
+    /**
+     * @param saladModel to look in for
+     */
     private void sortByParameter(SaladModel saladModel) {
         if (!checkIfSaladEmpty(saladModel)) {
             ConsolePrinter.print("Available parameters: Name, Color, Calories, Weight\nEnter parameter:");
@@ -75,6 +88,9 @@ public class MenuController {
         }
     }
 
+    /**
+     * @return new salad with inputted vegetable characteristics
+     */
     private SaladModel createSalad() {
         ConsolePrinter.print("Enter number of ingredients");
         int ingredientCount = UserInput.getNumberInput();
@@ -90,7 +106,9 @@ public class MenuController {
         saladModel.addVegetables(vegetables);
         return saladModel;
     }
-
+    /**
+     * @return vegetable with provided inputs
+     */
     private Vegetable getVegetable(int i) {
         return new Vegetable(getName(i), getColorCategory(), getRipenessPercentage(), getCalories(), getWeight());
     }
@@ -103,11 +121,18 @@ public class MenuController {
         return false;
     }
 
+    /**
+     * @param i ordinal number of vegetable
+     * @return name of vegetable
+     */
     private String getName(int i) {
         ConsolePrinter.print("Enter name of vegetable number " + (i + 1));
         return UserInput.getWord();
     }
 
+    /**
+     * @return getter from user
+     */
     private VegetableColorCategory getColorCategory() {
         ConsolePrinter.print("Choose color category");
         ConsolePrinter.print(Arrays.toString(VegetableColorCategory.values()));
@@ -123,7 +148,9 @@ public class MenuController {
         }
         return vegetableColorCategory;
     }
-
+    /**
+     * @return getter from user
+     */
     private RipenessPercentage getRipenessPercentage() {
         ConsolePrinter.print("Choose ripeness percentage");
         ConsolePrinter.print(Arrays.toString(RipenessPercentage.values()));
@@ -139,7 +166,9 @@ public class MenuController {
         }
         return ripenessPercentage;
     }
-
+    /**
+     * @return getter from user
+     */
     private double getCalories() {
         double calories = 0;
         while (calories <= 0) {
@@ -148,7 +177,9 @@ public class MenuController {
         }
         return calories;
     }
-
+    /**
+     * @return getter from user
+     */
     private double getWeight() {
         double weight = 0;
         while (weight <= 0) {

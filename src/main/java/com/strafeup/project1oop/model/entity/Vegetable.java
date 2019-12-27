@@ -1,7 +1,9 @@
 package com.strafeup.project1oop.model.entity;
 
-import java.util.Objects;
 
+/**
+ * Basic entity
+ */
 public class Vegetable {
     private String name;
     private VegetableColorCategory vegetableColorCategory;

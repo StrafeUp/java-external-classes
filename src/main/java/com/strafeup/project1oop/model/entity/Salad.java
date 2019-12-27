@@ -5,6 +5,9 @@ import java.util.Arrays;
 import java.util.Objects;
 
 
+/**
+ * Basic grouping entity
+ */
 public class Salad {
     Vegetable[] vegetables;
     int ingredientCount = 0;

@@ -6,6 +6,9 @@ import com.strafeup.project1oop.view.ConsolePrinter;
 
 import java.util.Arrays;
 
+/**
+ * Main model class for manipulating entities
+ */
 public class SaladModel {
     private Salad salad;
     private int ingredientCount;
@@ -15,6 +18,9 @@ public class SaladModel {
         this.salad = new Salad(ingredientCount);
     }
 
+    /**
+     * @param vegetables Accepts number of vegetables, if provided more, than capacity - will take only up to max capacity.
+     */
     public void addVegetables(Vegetable... vegetables) {
         if (vegetables.length > this.ingredientCount) {
             ConsolePrinter.print("Provided list of vegetables is longer than salad is capable of, putting upto limits");
@@ -25,6 +31,10 @@ public class SaladModel {
         salad.setTotalCalories((int) countTotalCaloriesInSalad());
     }
 
+    /**
+     * @param parameter Accepts String parameter to sort the array by
+     * @return returns sorted array by parameter
+     */
     public Vegetable[] sortBy(String parameter) {
         Vegetable[] tempArr = this.salad.getVegetables();
         while (true) {
@@ -50,6 +60,11 @@ public class SaladModel {
         }
     }
 
+    /**
+     * @param lowerBound minimum calories in vegetable range
+     * @param upperBound maximum calories in vegetable range
+     *                   Method prints names of found vegetables
+     */
     public void findByCalories(double lowerBound, double upperBound) {
         for (Vegetable veg : this.salad.getVegetables()) {
             if (veg.getCalories() < upperBound && veg.getCalories() > lowerBound) {
@@ -58,6 +73,9 @@ public class SaladModel {
         }
     }
 
+    /**
+     * @return returns the sum of vegetable calories in salad
+     */
     public double countTotalCaloriesInSalad() {
         double sum = 0;
         for (Vegetable vegetable : this.salad.getVegetables()) {

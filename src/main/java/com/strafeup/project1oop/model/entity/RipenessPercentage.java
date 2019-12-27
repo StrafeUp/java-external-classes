@@ -1,5 +1,9 @@
 package com.strafeup.project1oop.model.entity;
 
+
+/**
+ * Basic categorization by ripeness of vegetable
+ */
 public enum RipenessPercentage {
     UNRIPE(50), RIPE(100), OVERRIPE(150);
 
