@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/controller/BookController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/controller/ConvertToString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/entity/Author.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/entity/BookPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/entity/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/view/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task4/part2/view/InputData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/strafeup/task4/part2/entity/BookPoolTest.java" afterDir="false" />
+    <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="Added 4.2 with tests">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/controller/JournalSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/model/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/model/Journal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/model/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/view/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/view/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/CollectionGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/UserInput.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part4/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +36,8 @@
         <option value="Interface" />
         <option value="Enum" />
         <option value="Arquillian JUnit Test Class" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -66,6 +68,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="ignore_missing_gitignore" value="true" />
+    <property name="last.edited.regexp" value="Malinovskogo,123,58" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/strafeup/task4" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -83,24 +86,27 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.strafeup.task2" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/strafeup/task4" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.strafeup.task5.part4" />
+      <recent name="com.strafeup.task5.part3" />
+      <recent name="com.strafeup.task5.part2" />
       <recent name="com.strafeup.task3.part2.view" />
       <recent name="com.strafeup.task3.view" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/strafeup/task4" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.strafeup.project1oop.model" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.BookPoolTest">
+  <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.project1oop.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.task5.part1.Main" />
       <module name="java-external-classes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strafeup.project1oop.*" />
+          <option name="PATTERN" value="com.strafeup.task5.part1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,19 +120,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.strafeup.task4.part2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.task3.part2.Main" />
-      <module name="java-external-classes" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.strafeup.task3.part2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -173,6 +166,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserInput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.task5.part1.view.UserInput" />
+      <module name="java-external-classes" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.strafeup.task5.part1.view.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookPoolTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="java-external-classes" />
       <extension name="coverage">
@@ -206,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.UserInput" />
         <item itemvalue="JUnit.BookPoolTest" />
         <item itemvalue="JUnit.BookPoolTest.getBooksByAuthor" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +256,8 @@
       <workItem from="1576866602137" duration="82000" />
       <workItem from="1577203188003" duration="13546000" />
       <workItem from="1577263956269" duration="4874000" />
-      <workItem from="1577454722763" duration="2936000" />
+      <workItem from="1577454722763" duration="3012000" />
+      <workItem from="1578598975558" duration="4841000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2.1 done">
       <created>1575900744984</created>
@@ -357,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577456859745</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Added 4.2 with tests">
+      <created>1577458689159</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577458689159</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,7 +392,8 @@
     <MESSAGE value="Added compound enum - ripeness percentage category" />
     <MESSAGE value="Added task 3.2, in progress" />
     <MESSAGE value="Added javadocs" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added javadocs" />
+    <MESSAGE value="Added 4.2 with tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 4.2 with tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577458655134">
@@ -387,11 +402,11 @@
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458655134" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1577220526505" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.813/-205.-1057.1920.1057@0.23.1440.813" timestamp="1577457963447" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1577457178090">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1578653624995">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1576505995670" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577457178090" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653624995" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577220164335" />
     <state x="529" y="221" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1577457083649">
       <screen x="0" y="0" width="1440" height="900" />
@@ -409,37 +424,37 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="374" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1577216780414" />
-    <state x="271" y="53" key="CommitChangelistDialog2" timestamp="1577456859350">
+    <state x="271" y="53" key="CommitChangelistDialog2" timestamp="1578644822974">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577456859350" />
+    <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578644822974" />
     <state x="230" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577220608873" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1577458658517">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1578653770921">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577269713092" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458658517" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712300" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770921" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577221595589" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1577219340634" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1577458658515">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1578653770915">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577269713090" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458658515" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712298" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770915" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577221595588" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1577219340629" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1577458658514">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1578653770912">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577269713084" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458658514" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712297" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770912" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577221595587" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1577219340622" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1577458658516">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1578653770918">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577269713091" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458658516" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712299" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770918" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577221595588" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1577219340631" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577221595593">
@@ -458,15 +473,16 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="303" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1577221595592" />
-    <state x="208" y="0" key="SettingsEditor" timestamp="1577217048163">
+    <state x="208" y="0" key="SettingsEditor" timestamp="1578644817712">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="208" y="0" key="SettingsEditor/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578644817712" />
     <state x="208" y="0" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1577217048163" />
     <state x="208" y="23" key="SettingsEditor/0.23.1440.813@0.23.1440.813" timestamp="1577206044061" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577458678203">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1577458691361">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458678203" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458691361" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1577220612471" />
     <state x="542" y="188" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1577457090950">
       <screen x="0" y="0" width="1440" height="900" />
