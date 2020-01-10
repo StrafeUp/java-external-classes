@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="Added 4.2 with tests">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/controller/JournalSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/model/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/model/Journal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/model/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/view/ConsolePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part1/view/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/CollectionGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/UserInput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part3/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part4/Main.java" afterDir="false" />
+    <list default="true" id="d6e3ce91-ab0a-4600-ad75-3f86264f4c26" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/controller/CollectionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/view/ConsolePrinter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/CollectionGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/model/CollectionGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/UserInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/strafeup/task5/part2/view/UserInput.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +93,7 @@
       <recent name="com.strafeup.project1oop.model" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.strafeup.task5.part1.Main" />
       <module name="java-external-classes" />
@@ -114,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.strafeup.task4.part2.Main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.strafeup.task5.part2.Main" />
       <module name="java-external-classes" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.strafeup.task4.part2.*" />
+          <option name="PATTERN" value="com.strafeup.task5.part2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -212,11 +205,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.UserInput" />
         <item itemvalue="JUnit.BookPoolTest" />
         <item itemvalue="JUnit.BookPoolTest.getBooksByAuthor" />
-        <item itemvalue="Application.Main (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -257,7 +250,7 @@
       <workItem from="1577203188003" duration="13546000" />
       <workItem from="1577263956269" duration="4874000" />
       <workItem from="1577454722763" duration="3012000" />
-      <workItem from="1578598975558" duration="4841000" />
+      <workItem from="1578598975558" duration="6261000" />
     </task>
     <task id="LOCAL-00001" summary="Task 2.1 done">
       <created>1575900744984</created>
@@ -371,7 +364,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577458689159</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added 5.1">
+      <created>1578653832643</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1578653832643</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +393,8 @@
     <MESSAGE value="Added task 3.2, in progress" />
     <MESSAGE value="Added javadocs" />
     <MESSAGE value="Added 4.2 with tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added 4.2 with tests" />
+    <MESSAGE value="Added 5.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added 5.1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1577458655134">
@@ -402,11 +403,11 @@
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577458655134" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1440.900@0.0.1440.900" timestamp="1577220526505" />
     <state x="100" y="100" width="1240" height="700" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.23.1440.813/-205.-1057.1920.1057@0.23.1440.813" timestamp="1577457963447" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1578653624995">
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser" timestamp="1578655125865">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1576505995670" />
-    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653624995" />
+    <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578655125865" />
     <state x="533" y="173" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1577220164335" />
     <state x="529" y="221" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1577457083649">
       <screen x="0" y="0" width="1440" height="900" />
@@ -424,38 +425,42 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="374" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1440.900@0.0.1440.900" timestamp="1577216780414" />
-    <state x="271" y="53" key="CommitChangelistDialog2" timestamp="1578644822974">
+    <state x="271" y="53" key="CommitChangelistDialog2" timestamp="1578653832245">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578644822974" />
+    <state x="271" y="53" key="CommitChangelistDialog2/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653832245" />
     <state x="230" y="53" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1577220608873" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1578653770921">
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom" timestamp="1578655391054">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712300" />
-    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770921" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578655391054" />
     <state width="1398" height="303" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1577221595589" />
+    <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.813/-205.-1057.1920.1057@0.23.1440.813" timestamp="1578655046689" />
     <state width="1398" height="244" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1577219340634" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1578653770915">
+    <state width="1398" height="244" key="GridCell.Tab.0.center" timestamp="1578655391051">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712298" />
-    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770915" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578655391051" />
     <state width="1398" height="303" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1577221595588" />
+    <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.813/-205.-1057.1920.1057@0.23.1440.813" timestamp="1578655046680" />
     <state width="1398" height="244" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1577219340629" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1578653770912">
+    <state width="1398" height="244" key="GridCell.Tab.0.left" timestamp="1578655391049">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712297" />
-    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770912" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578655391049" />
     <state width="1398" height="303" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1577221595587" />
+    <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.813/-205.-1057.1920.1057@0.23.1440.813" timestamp="1578655046678" />
     <state width="1398" height="244" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1577219340622" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1578653770918">
+    <state width="1398" height="244" key="GridCell.Tab.0.right" timestamp="1578655391052">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-205.-1057.1920.1057@0.0.1440.900" timestamp="1577458712299" />
-    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578653770918" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578655391052" />
     <state width="1398" height="303" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1577221595588" />
+    <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.813/-205.-1057.1920.1057@0.23.1440.813" timestamp="1578655046683" />
     <state width="1398" height="244" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1577219340631" />
     <state width="1398" height="303" key="GridCell.Tab.1.bottom" timestamp="1577221595593">
       <screen x="0" y="0" width="1440" height="900" />
@@ -493,6 +498,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1577457739656" />
+    <state x="385" y="196" key="search.everywhere.popup" timestamp="1578655385048">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" key="search.everywhere.popup/0.0.1440.900/-205.-1080.1920.1080@0.0.1440.900" timestamp="1578655385048" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/java_external_classes$MenuControllerTest_checkSortByColorCategory.ic" NAME="MenuControllerTest.checkSortByColorCategory Coverage Results" MODIFIED="1577220548485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
