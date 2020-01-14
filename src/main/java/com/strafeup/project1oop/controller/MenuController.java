@@ -33,16 +33,15 @@ public class MenuController {
                     "5.To exit");
 
             switch (UserInput.getNumberInput()) {
-                case 1: {
+                case 1:
                     saladModel = createSalad();
                     ConsolePrinter.printSaladInfo(saladModel.getSalad());
                     break;
-                }
-                case 2: {
+                case 2:
                     sortByParameter(saladModel);
                     ConsolePrinter.printSaladInfo(saladModel.getSalad());
                     break;
-                }
+
                 case 3:
                     countTotalCalories(saladModel);
                     ConsolePrinter.printSaladInfo(saladModel.getSalad());
@@ -70,6 +69,7 @@ public class MenuController {
             saladModel.findByCalories(lowerBound, upperBound);
         }
     }
+
     /**
      * @param saladModel to look in for
      */
@@ -78,6 +78,7 @@ public class MenuController {
             ConsolePrinter.print("The total calories in salad is " + saladModel.countTotalCaloriesInSalad());
         }
     }
+
     /**
      * @param saladModel to look in for
      */
@@ -106,6 +107,7 @@ public class MenuController {
         saladModel.addVegetables(vegetables);
         return saladModel;
     }
+
     /**
      * @return vegetable with provided inputs
      */
@@ -148,6 +150,7 @@ public class MenuController {
         }
         return vegetableColorCategory;
     }
+
     /**
      * @return getter from user
      */
@@ -166,6 +169,7 @@ public class MenuController {
         }
         return ripenessPercentage;
     }
+
     /**
      * @return getter from user
      */
@@ -177,6 +181,7 @@ public class MenuController {
         }
         return calories;
     }
+
     /**
      * @return getter from user
      */

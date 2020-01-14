@@ -36,7 +36,7 @@ public class SaladModel {
      * @return returns sorted array by parameter
      */
     public Vegetable[] sortBy(String parameter) {
-        Vegetable[] tempArr = this.salad.getVegetables();
+        Vegetable[] tempArr = Arrays.copyOf(this.salad.getVegetables(), this.salad.getVegetables().length);
         while (true) {
             switch (parameter.toLowerCase()) {
                 case "calories":
